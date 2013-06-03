@@ -1,0 +1,17 @@
+#!/usr/bin/env perl
+#
+#   Usage: combinesheets --help
+#
+#   Martin Senger <martin.senger@gmail.com>
+#   February 2012
+#
+# ABSTRACT: command-line tool merging CSV and TSV spreadsheets
+# PODNAME: App::combinesheets
+# -----------------------------------------------------------------
+use warnings;
+use strict;
+
+# VERSION
+
+use App::combinesheets;
+App::combinesheets->run();
